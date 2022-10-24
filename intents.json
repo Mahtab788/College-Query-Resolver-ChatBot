@@ -1,0 +1,144 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hii",
+        "Hey",
+        "How are you?",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye","Tata","Sayonara"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!", "Arigato"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "collegename",
+      "patterns": [
+        "What is the name of this college?",
+        "What's the name of the college?",
+        "Name of the College",
+        "What's the college name?"
+        ],
+        "responses":[
+          "This college name is Smt. Indira Gandhi College of Engineering or SIGCE in short.",
+          "Name of this college is Smt. Indira Gandhi College of Engineering.",
+          "Smt. Indira Gandhi College of Engineering - SIGCE"
+       ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "What's the address of College?",
+        "Location of Collge?",
+        "Where is this college located?"
+      ],
+      "responses": [
+        "Plot No. 1, Sector 8, Ghansoli, Navi Mumbai -400701"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard.",
+        "We accept most major credit cards."
+      ]
+    },
+    {"tag": "fees",
+      "patterns": [
+      "What is the per year fees", 
+      "Fees structure", 
+      "What's the annual fees?"
+      ],
+      "responses": [
+        "1,00,000 per year for General/Open Category, and for other Categories please contact our office. Contact No.: +91-8080949300."
+      ]
+    },
+    {"tag": "collegeHours",
+      "patterns": [
+      "What are the working hours?", 
+      "What are the college hours?", 
+      "What are the hours in which visit college?"
+    ],
+      "responses": [" 9am-5pm Monday-Friday, except weekends!"]
+    },
+    {"tag": "branches",
+      "patterns": [
+      "What all braches do the college offer?", 
+      "How many braches do your college have?",
+      "Total No.of Departments are there?"
+    ],
+     "responses": ["\nThese are the Following bracnhes: \n1) Computer Engineering \n2) Artificial Intelligence and Machine Learning Engineering \n3)Internet of Things Engineering \n4)Electrical Engineering \n5)Mechanical Engineering" 
+    ]
+    },
+    {"tag": "Library",
+      "patterns": [
+      "When is the library  open?", 
+      "What are the library hours?",
+      "Visiting hours for Library"
+    ],
+     "responses": [" 9am-5pm Monday-Friday, except weekends!"]
+    },
+    {"tag": "principal name",
+      "patterns": [
+      "Who is your College Principal?", 
+      "What's the name of principal?",
+      "What is the name of Principal?"
+    ],
+      "responses": ["Honourable and Respected , One of a kind Dr. Sunil Chavan."]
+    },
+    {"tag": "playground",
+      "patterns": [
+      "Do your college have a playground?"
+    ],
+      "responses": ["Yes, we do have a Playground, but it's under-construction."]
+    },
+    {"tag": "campusPlacement",
+      "patterns": [
+      "What about Campus Placement?", 
+      "How many companies visit the college?",
+      "Visiting companies"
+    ],
+      "responses": [
+        "Our college gives best placement for students as SIGCE is the Placement Capital of Navi Mumbai",
+        "More than 150 companies visit our college every year for Recruitment."
+    ]
+    },
+    {"tag": "publicTrasport",
+      "patterns": [
+        "How far is Ghasoli Station from college?",
+        "How far the Station is from this college?",
+        "Which is the Nearest Railway Station?", 
+        "Where is the nearest Bus Stop from college?",
+        "Where are bus stops?"
+
+      ],
+      "responses": ["For Public Trasport both Railway and Bus are available. Ghansoli Railway Station is on 15 minutes walk from college and Bus Stop is just outside of the college."]
+    }
+  ]
+}
